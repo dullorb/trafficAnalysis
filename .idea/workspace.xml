@@ -11,20 +11,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49de755-e4ab-4afa-bb46-5b161c8be47c" name="Default Changelist" comment="Uploading to GitHub&#10;Initial Commit">
+      <change afterPath="$PROJECT_DIR$/fileUploader/imports/XLSX_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/fileUploader/uploader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trafficAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trafficAnalysis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficAnalasis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficAnalasis/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficAnalasis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficAnalasis/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficAnalasis/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileUploader/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trafficAnalysis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JupyterTrust" id="0649e482-a071-47b3-bff2-eb45ef9ed4c9" />
   <component name="ProjectId" id="1jjrHB7mbonTDgEBrdLZRnsFve1" />
@@ -34,16 +51,43 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="trafficAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="trafficAnalysis.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +99,9 @@
       <updated>1604328293533</updated>
       <workItem from="1604328297323" duration="15000" />
       <workItem from="1604504066770" duration="2722000" />
-      <workItem from="1604509812785" duration="406000" />
+      <workItem from="1604509812785" duration="2144000" />
+      <workItem from="1604521560000" duration="4335000" />
+      <workItem from="1604674577427" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading to GitHub&#10;Initial Commit">
       <created>1604506040606</created>
@@ -64,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604506040606</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed minor typo in folder name">
+      <created>1604510250335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604510250335</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New version control file">
+      <created>1604510472311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604510472311</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,24 +140,47 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uploading to GitHub&#10;Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploading to GitHub&#10;Initial Commit" />
+    <MESSAGE value="Fixed minor typo in folder name" />
+    <MESSAGE value="New version control file" />
+    <option name="LAST_COMMIT_MESSAGE" value="New version control file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl" timestamp="1604505784550">
+    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604524189318">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604505784550" />
+    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604524189318" />
+    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl" timestamp="1604523779820">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604523779820" />
     <state x="2633" y="473" width="322" height="207" key="Github.ShareDialog" timestamp="1604509846605">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2633" y="473" width="322" height="207" key="Github.ShareDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604509846605" />
-    <state x="2283" y="208" width="1022" height="737" key="SettingsEditor" timestamp="1604505284237">
+    <state width="1344" height="206" key="GridCell.Tab.0.bottom" timestamp="1604674835746">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2283" y="208" width="1022" height="737" key="SettingsEditor/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604505284237" />
+    <state width="1344" height="206" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
+    <state width="1344" height="206" key="GridCell.Tab.0.center" timestamp="1604674835746">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1344" height="206" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
+    <state width="1344" height="206" key="GridCell.Tab.0.left" timestamp="1604674835746">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1344" height="206" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
+    <state width="1344" height="206" key="GridCell.Tab.0.right" timestamp="1604674835746">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1344" height="206" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
+    <state x="2230" y="183" width="1022" height="737" key="SettingsEditor" timestamp="1604675119205">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2230" y="183" width="1022" height="737" key="SettingsEditor/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604675119205" />
     <state x="2551" y="290" width="475" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604505993322">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
