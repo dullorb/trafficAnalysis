@@ -19,27 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f49de755-e4ab-4afa-bb46-5b161c8be47c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/instructions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapDisplay/Javascript/Google_Maps_API.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mapDisplay/Style/Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mapDisplay/google_map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trafficAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trafficAnalysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HowTo_start_Pycharm/PycharmHowTo/1_add_package.png" beforeDir="false" afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/Instruction_Images/1_add_package.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HowTo_start_Pycharm/PycharmHowTo/2_add_package.png" beforeDir="false" afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/Instruction_Images/2_add_package.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HowTo_start_Pycharm/PycharmHowTo/3_add_Django.png" beforeDir="false" afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/Instruction_Images/3_add_Django.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HowTo_start_Pycharm/PycharmHowTo/4_settings.py.png" beforeDir="false" afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/Instruction_Images/4_settings.py.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileUploader/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileUploader/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapDisplay/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/mapDisplay/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapDisplay/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mapDisplay/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fileUploader/uploader.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/fileUploader/uploader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficAnalysis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trafficAnalysis/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="f49de755-e4ab-4afa-bb46-5b161c8be47c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +121,7 @@
       <workItem from="1605475566203" duration="4472000" />
       <workItem from="1605541415239" duration="599000" />
       <workItem from="1605629845846" duration="27000" />
-      <workItem from="1605641320819" duration="6585000" />
+      <workItem from="1605641320819" duration="7268000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading to GitHub&#10;Initial Commit">
       <created>1604506040606</created>
@@ -178,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604679277060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added rudimentary Google Map API functions">
+      <created>1605651826367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605651826367</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +189,8 @@
     <MESSAGE value="New version control file" />
     <MESSAGE value="Minor bugfixes and IDE config changes to make project runnable.  Does not provide useful functionality yet." />
     <MESSAGE value="Added folder with instruction for configuring in PyCharm after pulling from GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added folder with instruction for configuring in PyCharm after pulling from GitHub" />
+    <MESSAGE value="Added rudimentary Google Map API functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rudimentary Google Map API functions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604677870814">
@@ -217,22 +205,22 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2633" y="473" width="322" height="207" key="Github.ShareDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604509846605" />
-    <state width="1344" height="206" key="GridCell.Tab.0.bottom" timestamp="1605646887650">
+    <state width="1344" height="206" key="GridCell.Tab.0.bottom" timestamp="1605651762725">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605646887650" />
-    <state width="1344" height="206" key="GridCell.Tab.0.center" timestamp="1605646887650">
+    <state width="1344" height="206" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605651762725" />
+    <state width="1344" height="206" key="GridCell.Tab.0.center" timestamp="1605651762725">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605646887650" />
-    <state width="1344" height="206" key="GridCell.Tab.0.left" timestamp="1605646887650">
+    <state width="1344" height="206" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605651762725" />
+    <state width="1344" height="206" key="GridCell.Tab.0.left" timestamp="1605651762725">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605646887650" />
-    <state width="1344" height="206" key="GridCell.Tab.0.right" timestamp="1605646887650">
+    <state width="1344" height="206" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605651762725" />
+    <state width="1344" height="206" key="GridCell.Tab.0.right" timestamp="1605651762725">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605646887650" />
+    <state width="1344" height="206" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605651762725" />
     <state width="1344" height="256" key="GridCell.Tab.1.bottom" timestamp="1604697022432">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
@@ -253,10 +241,10 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2136" y="216" width="1022" height="737" key="SettingsEditor/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604678526565" />
-    <state x="2299" y="202" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604679360271">
+    <state x="2299" y="202" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605651851348">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2299" y="202" width="800" height="535" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604679360271" />
+    <state x="2299" y="202" width="800" height="535" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605651851348" />
     <state x="2551" y="290" width="475" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604505993322">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
