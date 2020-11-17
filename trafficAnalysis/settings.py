@@ -121,3 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#Google Maps API Key
+#GCP Account Owner: Thomas Gregory
+#GCP Project Name: UWM MAPS API
+#RESTRICTIONS: Maximum transactions/day = 50,000
+GOOGLE_MAPS_API_KEY = "AIzaSyDfJ7zzZVxFbOURpZ5GG44-14ZterKdiLA"

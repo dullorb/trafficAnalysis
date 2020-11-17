@@ -1,0 +1,57 @@
+configuration for PyCharm after pulling from Repo
+project has been uploaded to GitHub without /venv folder
+
+Step 1) Add packages
+Step 2) Add Frameworks
+Step 3) Migrate
+
+==================
+=Step 1. Packages=
+==================
+to build the virtual environment requires the following packages be added:
+File->Settings->Project:trafficAnalysis->Python Interpreter
+
+Python              v3.8.5
+------              ------
+Django	            v3.1.2
+asgiref	            v3.2.10
+numpy	            v1.19.4
+pandas	            v1.1.4
+pip	                v20.2.4
+python-dateutil	    v2.8.1
+pytz	            v2020.1
+setuptools	        v50.3.2
+six	                v1.15.0
+sqlparse	        v0.4.1
+[image PycharmHowTo/1_add_package.png]
+[image PycharmHowTo/2_add_package.png]
+
+====================
+=Step 2. Frameworks=
+====================
+
+Django framework must be specified:
+File->Settings->Project:trafficAnalysis->Languages & Frameworks->Django
+-Django Project Root:   /home/thomas/PycharmProjects/trafficAnalysis
+-Settings:              trafficAnalysis/settings.py
+-Manage Script:         manage.py
+
+[image PycharmHowTo/3_add_Django.png]
+[image PycharmHowTo/4_settings.py.png]
+
+
+====================
+=Step 3. Migrations=
+====================
+Go to terminal in directory containing manage.py, at the prompt enter:
+
+python manage.py  make migrations
+
+then enter:
+
+python manage.py migrate
+
+
+=========================
+=Configurations Finished=
+=========================

@@ -6,18 +6,39 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f49de755-e4ab-4afa-bb46-5b161c8be47c" name="Default Changelist" comment="Uploading to GitHub&#10;Initial Commit">
-      <change afterPath="$PROJECT_DIR$/fileUploader/imports/XLSX_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/fileUploader/uploader.html" afterDir="false" />
+    <list default="true" id="f49de755-e4ab-4afa-bb46-5b161c8be47c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapDisplay/Javascript/Google_Maps_API.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mapDisplay/Style/Styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mapDisplay/google_map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/trafficAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trafficAnalysis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HowTo_start_Pycharm/PycharmHowTo/1_add_package.png" beforeDir="false" afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/Instruction_Images/1_add_package.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HowTo_start_Pycharm/PycharmHowTo/2_add_package.png" beforeDir="false" afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/Instruction_Images/2_add_package.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HowTo_start_Pycharm/PycharmHowTo/3_add_Django.png" beforeDir="false" afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/Instruction_Images/3_add_Django.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HowTo_start_Pycharm/PycharmHowTo/4_settings.py.png" beforeDir="false" afterPath="$PROJECT_DIR$/HowTo_start_Pycharm/Instruction_Images/4_settings.py.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileUploader/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fileUploader/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapDisplay/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/mapDisplay/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapDisplay/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mapDisplay/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/fileUploader/uploader.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/fileUploader/uploader.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trafficAnalysis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trafficAnalysis/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +52,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ClassViews" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -54,7 +83,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +92,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mapDisplay" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
@@ -101,7 +136,12 @@
       <workItem from="1604504066770" duration="2722000" />
       <workItem from="1604509812785" duration="2144000" />
       <workItem from="1604521560000" duration="4335000" />
-      <workItem from="1604674577427" duration="535000" />
+      <workItem from="1604674577427" duration="8625000" />
+      <workItem from="1605024457818" duration="117000" />
+      <workItem from="1605475566203" duration="4472000" />
+      <workItem from="1605541415239" duration="599000" />
+      <workItem from="1605629845846" duration="27000" />
+      <workItem from="1605641320819" duration="6585000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading to GitHub&#10;Initial Commit">
       <created>1604506040606</created>
@@ -124,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604510472311</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Minor bugfixes and IDE config changes to make project runnable.  Does not provide useful functionality yet.">
+      <created>1604675462697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604675462697</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added folder with instruction for configuring in PyCharm after pulling from GitHub">
+      <created>1604679277060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604679277060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,44 +200,85 @@
     <MESSAGE value="Uploading to GitHub&#10;Initial Commit" />
     <MESSAGE value="Fixed minor typo in folder name" />
     <MESSAGE value="New version control file" />
-    <option name="LAST_COMMIT_MESSAGE" value="New version control file" />
+    <MESSAGE value="Minor bugfixes and IDE config changes to make project runnable.  Does not provide useful functionality yet." />
+    <MESSAGE value="Added folder with instruction for configuring in PyCharm after pulling from GitHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added folder with instruction for configuring in PyCharm after pulling from GitHub" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604524189318">
+    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604677870814">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604524189318" />
-    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl" timestamp="1604523779820">
+    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604677870814" />
+    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl" timestamp="1604678492061">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604523779820" />
+    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604678492061" />
     <state x="2633" y="473" width="322" height="207" key="Github.ShareDialog" timestamp="1604509846605">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2633" y="473" width="322" height="207" key="Github.ShareDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604509846605" />
-    <state width="1344" height="206" key="GridCell.Tab.0.bottom" timestamp="1604674835746">
+    <state width="1344" height="206" key="GridCell.Tab.0.bottom" timestamp="1605646887650">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
-    <state width="1344" height="206" key="GridCell.Tab.0.center" timestamp="1604674835746">
+    <state width="1344" height="206" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605646887650" />
+    <state width="1344" height="206" key="GridCell.Tab.0.center" timestamp="1605646887650">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
-    <state width="1344" height="206" key="GridCell.Tab.0.left" timestamp="1604674835746">
+    <state width="1344" height="206" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605646887650" />
+    <state width="1344" height="206" key="GridCell.Tab.0.left" timestamp="1605646887650">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
-    <state width="1344" height="206" key="GridCell.Tab.0.right" timestamp="1604674835746">
+    <state width="1344" height="206" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605646887650" />
+    <state width="1344" height="206" key="GridCell.Tab.0.right" timestamp="1605646887650">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
-    <state x="2230" y="183" width="1022" height="737" key="SettingsEditor" timestamp="1604675119205">
+    <state width="1344" height="206" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605646887650" />
+    <state width="1344" height="256" key="GridCell.Tab.1.bottom" timestamp="1604697022432">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2230" y="183" width="1022" height="737" key="SettingsEditor/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604675119205" />
+    <state width="1344" height="256" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604697022432" />
+    <state width="1344" height="256" key="GridCell.Tab.1.center" timestamp="1604697022432">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1344" height="256" key="GridCell.Tab.1.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604697022432" />
+    <state width="1344" height="256" key="GridCell.Tab.1.left" timestamp="1604697022432">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1344" height="256" key="GridCell.Tab.1.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604697022432" />
+    <state width="1344" height="256" key="GridCell.Tab.1.right" timestamp="1604697022432">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1344" height="256" key="GridCell.Tab.1.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604697022432" />
+    <state x="2136" y="216" width="1022" height="737" key="SettingsEditor" timestamp="1604678526565">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2136" y="216" width="1022" height="737" key="SettingsEditor/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604678526565" />
+    <state x="2299" y="202" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604679360271">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2299" y="202" width="800" height="535" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604679360271" />
     <state x="2551" y="290" width="475" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604505993322">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2551" y="290" width="475" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604505993322" />
+    <state x="2485" y="381" width="428" height="184" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604679341007">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2485" y="381" width="428" height="184" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604679341007" />
+    <state x="2727" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1605479270389">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2727" y="236" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605479270389" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/manage.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
