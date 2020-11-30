@@ -6,17 +6,30 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49de755-e4ab-4afa-bb46-5b161c8be47c" name="Default Changelist" comment="Uploading to GitHub&#10;Initial Commit">
-      <change afterPath="$PROJECT_DIR$/fileUploader/imports/XLSX_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/fileUploader/uploader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trafficAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trafficAnalysis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileUploader/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileUploader/imports/XLSX_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/imports/XLSX_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileUploader/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fileUploader/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapDisplay/Javascript/Google_Maps_API.js" beforeDir="false" afterPath="$PROJECT_DIR$/mapDisplay/static/Javascript/Google_Maps_API.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/fileUploader/uploader.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/fileUploader/uploader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mapDisplay/Style/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/mapDisplay/static/Styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mapDisplay/google_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mapDisplay/google_map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trafficAnalysis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -54,14 +72,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mapDisplay" />
+      <recent name="$PROJECT_DIR$/templates/mapDisplay/static" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
@@ -102,6 +126,11 @@
       <workItem from="1604509812785" duration="2144000" />
       <workItem from="1604521560000" duration="4335000" />
       <workItem from="1604674577427" duration="535000" />
+      <workItem from="1605732648646" duration="5479000" />
+      <workItem from="1605799607104" duration="1812000" />
+      <workItem from="1606577213209" duration="1962000" />
+      <workItem from="1606749115891" duration="8000" />
+      <workItem from="1606749137316" duration="15889000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading to GitHub&#10;Initial Commit">
       <created>1604506040606</created>
@@ -124,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604510472311</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added rudimentary Google Map API functions">
+      <created>1605652349117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605652349117</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +182,8 @@
     <MESSAGE value="Uploading to GitHub&#10;Initial Commit" />
     <MESSAGE value="Fixed minor typo in folder name" />
     <MESSAGE value="New version control file" />
-    <option name="LAST_COMMIT_MESSAGE" value="New version control file" />
+    <MESSAGE value="Added rudimentary Google Map API functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rudimentary Google Map API functions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604524189318">
@@ -161,29 +198,60 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2633" y="473" width="322" height="207" key="Github.ShareDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604509846605" />
-    <state width="1344" height="206" key="GridCell.Tab.0.bottom" timestamp="1604674835746">
+    <state width="672" height="231" key="GridCell.Tab.0.bottom" timestamp="1606765898068">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
-    <state width="1344" height="206" key="GridCell.Tab.0.center" timestamp="1604674835746">
+    <state width="672" height="231" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606765898068" />
+    <state width="672" height="231" key="GridCell.Tab.0.center" timestamp="1606765898068">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
-    <state width="1344" height="206" key="GridCell.Tab.0.left" timestamp="1604674835746">
+    <state width="672" height="231" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606765898068" />
+    <state width="672" height="231" key="GridCell.Tab.0.left" timestamp="1606765898068">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
-    <state width="1344" height="206" key="GridCell.Tab.0.right" timestamp="1604674835746">
+    <state width="672" height="231" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606765898068" />
+    <state width="672" height="231" key="GridCell.Tab.0.right" timestamp="1606765898068">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="206" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604674835746" />
-    <state x="2230" y="183" width="1022" height="737" key="SettingsEditor" timestamp="1604675119205">
+    <state width="672" height="231" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606765898068" />
+    <state width="1344" height="287" key="GridCell.Tab.1.bottom" timestamp="1606765697037">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2230" y="183" width="1022" height="737" key="SettingsEditor/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604675119205" />
+    <state width="1344" height="287" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606765697037" />
+    <state width="1344" height="287" key="GridCell.Tab.1.center" timestamp="1606765697037">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1344" height="287" key="GridCell.Tab.1.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606765697037" />
+    <state width="1344" height="287" key="GridCell.Tab.1.left" timestamp="1606765697037">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1344" height="287" key="GridCell.Tab.1.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606765697037" />
+    <state width="1344" height="287" key="GridCell.Tab.1.right" timestamp="1606765697037">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1344" height="287" key="GridCell.Tab.1.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606765697037" />
+    <state x="2230" y="183" width="1022" height="737" key="SettingsEditor" timestamp="1606756421201">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2230" y="183" width="1022" height="737" key="SettingsEditor/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606756421201" />
+    <state x="2265" y="306" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605652359945">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2265" y="306" width="800" height="535" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1605652359945" />
     <state x="2551" y="290" width="475" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604505993322">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2551" y="290" width="475" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604505993322" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fileUploader/imports/XLSX_reader.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
