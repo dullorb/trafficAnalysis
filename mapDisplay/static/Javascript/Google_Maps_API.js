@@ -19,5 +19,18 @@ function markerArray(list, map){
 function makeMarker(latitude,longitude, map){
   p = {lat: latitude, lng:longitude}
   args = {position: p, map};
-  return new google.maps.Marker(args)
+  return new google.maps.Marker(args);
+}
+
+function makeWeightedLocation(lat,long,w){
+  var loc = new google.maps.LatLng(lat, long);
+  return {location: loc, weight: w};
+}
+
+function makeWeightedLocationList(list) {
+  retval = []
+  for (l of list) {
+    retval.push(makeWeightedLocation(l.latitude, l.longitude, l.weight));
+  }
+  return retval;
 }

@@ -3,7 +3,7 @@ from random import randint
 
 def handle_file(file):
     reading = file.read()
-    data = pd.read_excel(reading, nrows=500)
+    data = pd.read_excel(reading)
     length = data.size
     return grab_essentials(data)
 

@@ -8,8 +8,11 @@
   </form>
 {% if key %}
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ key }}&callback=initMap&libraries=&v=weekly"
-      defer></script>
+    <!--script src="https://maps.googleapis.com/maps/api/js?key={{ key }}&callback=initMap&libraries=&v=weekly"
+      defer></script-->
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key={{ key }}&libraries=visualization&callback=initMap">
+</script>
 
           {% load static %}
       <script src="{% static 'Javascript/Google_Maps_API.js' %}"></script>
