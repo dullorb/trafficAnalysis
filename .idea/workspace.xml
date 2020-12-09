@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49de755-e4ab-4afa-bb46-5b161c8be47c" name="Default Changelist" comment="Uploading to GitHub&#10;Initial Commit">
+      <change afterPath="$PROJECT_DIR$/Configuration_scripts/read.ME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginApp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileUploader/imports/File_DB_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/LoginApp/createAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/LoginApp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileUploader/imports/XLSX_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/imports/XLSX_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapDisplay/static/Javascript/Google_Maps_API.js" beforeDir="false" afterPath="$PROJECT_DIR$/mapDisplay/static/Javascript/Google_Maps_API.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fileUploader/uploader.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/fileUploader/uploader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileUploader/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileUploader/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trafficAnalysis/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trafficAnalysis/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +70,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GraciousHotspurs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -123,7 +129,10 @@
       <workItem from="1605799607104" duration="1812000" />
       <workItem from="1606577213209" duration="1962000" />
       <workItem from="1606749115891" duration="8000" />
-      <workItem from="1606749137316" duration="19702000" />
+      <workItem from="1606749137316" duration="19840000" />
+      <workItem from="1606839593214" duration="385000" />
+      <workItem from="1607027255644" duration="629000" />
+      <workItem from="1607459132364" duration="4928000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading to GitHub&#10;Initial Commit">
       <created>1604506040606</created>
@@ -160,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606770630762</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="beginnings of heatmap API">
+      <created>1606783700342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606783700342</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,53 +200,62 @@
     <MESSAGE value="New version control file" />
     <MESSAGE value="Added rudimentary Google Map API functions" />
     <MESSAGE value="crude import of xlsx datapoints into Google Map api.  &#10;Arbitrary cap of first 500 rows of data&#10;Random weight assigned to each co-ordinate" />
-    <option name="LAST_COMMIT_MESSAGE" value="crude import of xlsx datapoints into Google Map api.  &#10;Arbitrary cap of first 500 rows of data&#10;Random weight assigned to each co-ordinate" />
+    <MESSAGE value="beginnings of heatmap API" />
+    <option name="LAST_COMMIT_MESSAGE" value="beginnings of heatmap API" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604524189318">
+    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607463649229">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604524189318" />
-    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl" timestamp="1604523779820">
+    <state x="2399" y="180" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1607463649229" />
+    <state x="2284" y="340" width="651" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607463031515">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604523779820" />
+    <state x="2284" y="340" width="651" height="410" key="#com.intellij.fileTypes.FileTypeChooser/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1607463031515" />
+    <state x="2387" y="371" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607474423376">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2387" y="371" width="518" height="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1607474423376" />
+    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl" timestamp="1607190394295">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2565" y="317" width="447" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1607190394295" />
     <state x="2633" y="473" width="322" height="207" key="Github.ShareDialog" timestamp="1604509846605">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2633" y="473" width="322" height="207" key="Github.ShareDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1604509846605" />
-    <state width="803" height="231" key="GridCell.Tab.0.bottom" timestamp="1606773688347">
+    <state width="796" height="230" key="GridCell.Tab.0.bottom" timestamp="1607463658917">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="803" height="231" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606773688347" />
-    <state width="803" height="231" key="GridCell.Tab.0.center" timestamp="1606773688347">
+    <state width="796" height="230" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1607463658917" />
+    <state width="796" height="230" key="GridCell.Tab.0.center" timestamp="1607463658917">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="803" height="231" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606773688347" />
-    <state width="803" height="231" key="GridCell.Tab.0.left" timestamp="1606773688347">
+    <state width="796" height="230" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1607463658917" />
+    <state width="796" height="230" key="GridCell.Tab.0.left" timestamp="1607463658917">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="803" height="231" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606773688347" />
-    <state width="803" height="231" key="GridCell.Tab.0.right" timestamp="1606773688347">
+    <state width="796" height="230" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1607463658917" />
+    <state width="796" height="230" key="GridCell.Tab.0.right" timestamp="1607463658917">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="803" height="231" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606773688347" />
-    <state width="803" height="287" key="GridCell.Tab.1.bottom" timestamp="1606773647691">
+    <state width="796" height="230" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1607463658917" />
+    <state width="803" height="287" key="GridCell.Tab.1.bottom" timestamp="1606783801496">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="803" height="287" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606773647691" />
-    <state width="803" height="287" key="GridCell.Tab.1.center" timestamp="1606773647691">
+    <state width="803" height="287" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606783801496" />
+    <state width="803" height="287" key="GridCell.Tab.1.center" timestamp="1606783801496">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="803" height="287" key="GridCell.Tab.1.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606773647691" />
-    <state width="803" height="287" key="GridCell.Tab.1.left" timestamp="1606773647691">
+    <state width="803" height="287" key="GridCell.Tab.1.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606783801496" />
+    <state width="803" height="287" key="GridCell.Tab.1.left" timestamp="1606783801496">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="803" height="287" key="GridCell.Tab.1.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606773647691" />
-    <state width="803" height="287" key="GridCell.Tab.1.right" timestamp="1606773647691">
+    <state width="803" height="287" key="GridCell.Tab.1.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606783801496" />
+    <state width="803" height="287" key="GridCell.Tab.1.right" timestamp="1606783801496">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="803" height="287" key="GridCell.Tab.1.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606773647691" />
+    <state width="803" height="287" key="GridCell.Tab.1.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1606783801496" />
     <state x="2230" y="183" width="1022" height="737" key="SettingsEditor" timestamp="1606756421201">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>

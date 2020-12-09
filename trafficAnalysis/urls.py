@@ -17,9 +17,10 @@ from django.contrib import admin
 from django.urls import include, path
 from mapDisplay.views import MapView
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('fileUploader/', include('fileUploader.urls')),
-    #path('map/', MapView.as_view(API_Key=GOOGLE_MAPS_API_KEY)),
     path('map/', MapView.as_view()),
+    path('', )
 ]

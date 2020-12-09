@@ -6,6 +6,7 @@ from .forms import UploadFileForm
 from .imports.XLSX_reader import handle_file
 from trafficAnalysis.settings import GOOGLE_MAPS_API_KEY
 
+
 class UploadFile(View):
     form_class = UploadFileForm
     initial = {'key': 'value'}
