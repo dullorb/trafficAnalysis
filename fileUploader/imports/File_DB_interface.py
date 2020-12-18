@@ -1,7 +1,7 @@
 import os
 
 
-class FileManager(path):
+class FileDatabaseManager(path):
     def __init__(self, path):
         file_path = path
 
@@ -12,5 +12,8 @@ class FileManager(path):
         pass
 
 
-class FileDBInterface(query):
-    pass
+class DB_File(query):
+    file_name='empty'
+    associated_Django_Model='none'
+    file_location= 'empty'
+

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 
-from .forms import LoginForm
+from .forms import LoginForm, CreateAccountForm, EditUsersForm
 
 
 class Login(View):
@@ -15,3 +15,13 @@ class Login(View):
     def post(self, request, *args, **kwargs):
         form = self.form_class
         return render(request, self.template_name, {'form': form})
+
+
+class CreateAccount(View):
+    pass
+
+
+class EditUsers(View):
+    pass
+
+

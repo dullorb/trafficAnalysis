@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('fileUploader/', include('fileUploader.urls')),
     path('map/', MapView.as_view()),
-    path('', )
+    #path('', )
 ]
