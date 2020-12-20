@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.db import models
 from django.core.files.storage import FileSystemStorage
+from django.contrib.auth.models import User
 
 
 class TrafficDataFile(models.Model):
@@ -12,6 +13,7 @@ class TrafficDataFile(models.Model):
     sourceFileRows = models.IntegerField(default=FILE_UNPROCESSED)
     sourceFileSize = models.FloatField()
     isProcessed = models.BooleanField(default=False)
+    owner = models.ForeignKey(MapUser, on_delete=models.CASCADE)
 
 admin.site.register(TrafficDataFile)
 
@@ -27,3 +29,7 @@ class TrafficDataRow(models.Model):
     longitude = models.FloatField()
     weighted = models.FloatField()
 
+
+class MapUser(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    favorite_file = models.ForeignKey(TrafficDataFile, blank=True, null=True)
